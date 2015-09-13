@@ -1,0 +1,80 @@
+#header {
+    margin: 0px 0px 0px 4vw;
+    background-color: none;
+    padding: 0px;
+    width: 800px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 240%;
+    font-weight: 500;
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+
+}
+
+h1 {
+    font-size: 6vw;
+    
+}
+
+html {
+    background-color: #666;
+}
+
+/*html {
+    background: url(/image/home1024.jpg) no-repeat left top fixed; 
+    max-width: 100%;
+    background-size: cover;
+
+}*/
+
+.navbox {
+    margin: 0px 0px 0px 12vw;
+    border: none;
+    width: 40vw;
+    height: 600px;
+}
+
+.navtile {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+.navtile li {
+    display: inline;
+    float: left;
+
+}
+
+.navtile li a{
+    display: block;
+    margin: 0px 0px 0px 10px;
+    width: 30vw;
+    height: 60px;
+    text-decoration: none;
+    text-transform: uppercase; 
+    font-weight: 100;
+    color: black; 
+    background-color: white;
+    text-align: center;
+    
+}
+
+
+.navtext {
+    padding: 20px 0px 0px 0px;
+}
+
+
+/*Comment     
+    min-width: 1024px;
+    min-height: 768px;*/
+    
