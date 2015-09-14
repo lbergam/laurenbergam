@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #header {
     margin: 0px 0px 0px 4vw;
     background-color: none;
@@ -77,4 +78,25 @@ html {
 /*Comment     
     min-width: 1024px;
     min-height: 768px;*/
+=======
+body {
+    background-image: url(/image/SeattleSkyline.jpg);
+    background-size: 100%;
+    background-color: #6097bf;
+    
+}
+
+iframe {
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+
+
+
+/*Comment*/
+>>>>>>> b61d479c501ab02bf173ae6cbef588101ed14fd8
     
