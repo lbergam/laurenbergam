@@ -1,39 +1,111 @@
-<<<<<<< HEAD
-#header {
-    margin: 0px 0px 0px 4vw;
-    background-color: none;
-    padding: 0px;
-    width: 800px;
-    color: #fff;
-    font-family: Arial;
-    font-size: 240%;
-    font-weight: 500;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    z-index: -1;
+@font-face {
+    font-family: 'Cicle';
+    src: url('/font/Cicle.ttf');
+}
+@font-face{
+    font-family: 'Raleway';
+    src: url('/font/Raleway.ttf');
+}
+@font-face{
+    font-family: 'Satellite';
+    src: url('/font/Satellite.otf');
+}
+@font-face{
+    font-family: 'Opensans';
+    src: url('/font/Opensans.ttf')
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url('/font/Quicksand.otf')
+}
 
+
+p {
+    font-family: Quicksand, 'Trebuchet MS', sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 h1 {
-    font-size: 6vw;
-    
+    font-size: 5em;
+    color: #fff;
+    font-family: Raleway, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 
-html {
-    background-color: #666;
+h2 {
+    font-size: 50px;
+    font-family: Raleway,'Trebuchet MS', sans-serif;
+    color: #5ce1b8;
+    text-align: center;
 }
 
-/*html {
-    background: url(/image/home1024.jpg) no-repeat left top fixed; 
-    max-width: 100%;
-    background-size: cover;
+.jumbotron {
+  background: url(/image/home1024.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  height: 600px;
+  box-sizing: border-box;
+}
 
-}*/
+#hcontainer {
+    border: none;
+    position: absolute;
+    display: block;
+    width: fit-content ;
+    text-align: left;
+    padding: 0px 0px 0px 10%;
+    margin: 100px 0px 0px 0px;
+}
+
+
+.content {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ocontainer {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+}
+
+.ccontainer {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: #f3eee7;
+}
+
+.wcontainer {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+}
+
+.gcontainer {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: #808080;
+}
 
 .navbox {
     margin: 0px 0px 0px 12vw;
@@ -75,28 +147,5 @@ html {
 }
 
 
-/*Comment     
-    min-width: 1024px;
-    min-height: 768px;*/
-=======
-body {
-    background-image: url(/image/SeattleSkyline.jpg);
-    background-size: 100%;
-    background-color: #6097bf;
-    
-}
-
-iframe {
-    margin-top: 60px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-}
-
-
-
-
 /*Comment*/
->>>>>>> b61d479c501ab02bf173ae6cbef588101ed14fd8
     
