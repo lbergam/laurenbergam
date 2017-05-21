@@ -1,6 +1,7 @@
 
 /*Setup*/
 html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -38,10 +39,13 @@ p {
 
 h1 {
     font-size: 5em;
-    color: #fff;
+    color: #808080;
     font-family: Raleway, 'Trebuchet MS', sans-serif;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+    padding: 30px;
+    background: #fff;
+    position: absolute;
+    text-align: center;
+
 }
 
 h2 {
@@ -53,16 +57,15 @@ h2 {
 
 /*Background Image*/
 .jumbotron {
-  background: url('/image/home1024.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin: 0px;
-  height: 600px;
-  box-sizing: border-box;
-
+    background-image: url('/image/IMG_6943.jpg'); /* The image used */
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    height: 100%; /* Full height */
+    background-position: center; /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 /*Menu Bar*/
 .navbar {
@@ -74,7 +77,7 @@ h2 {
     text-align: center;
 }
 
-/*Links In Menu Bar*/ 
+/*Menu Bar Links*/ 
 .navbar a {
     font-family: Quicksand, 'Trebuchet MS', sans-serif;
     font-weight: normal;
@@ -90,12 +93,14 @@ h2 {
 #hcontainer {
     border: none;
     position: absolute;
-    display: block;
-    width: fit-content ;
-    text-align: left;
-    padding: 0px 0px 0px 10%;
-    margin: 100px 0px 0px 0px;
+    /*display: block;*/
+    /*width: fit-content ;*/
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px;
+
 }
+
 
 
 .content {
@@ -139,46 +144,6 @@ h2 {
 }
 
 
-/*
-.navbox {
-    margin: 0px 0px 0px 12vw;
-    border: none;
-    width: 40vw;
-    height: 600px;
-}
-
-.navtile {
-    list-style-type: none;
-    margin: 0;
-    padding: 0px 0px 0px 0px;
-    
-}
-
-.navtile li {
-    display: inline;
-    float: left;
-
-}
-
-.navtile li a{
-    display: block;
-    margin: 0px 0px 0px 10px;
-    width: 30vw;
-    height: 60px;
-    text-decoration: none;
-    text-transform: uppercase; 
-    font-weight: 100;
-    color: black; 
-    background-color: white;
-    text-align: center;
-    
-}
-
-
-.navtext {
-    padding: 20px 0px 0px 0px;
-}
-*/
 
 /*Comment*/
     
