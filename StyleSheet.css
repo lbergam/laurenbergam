@@ -40,16 +40,23 @@ p {
 h1 {
     font-size: 5em;
     color: #808080;
+    text-align: center;
     font-family: Raleway, 'Trebuchet MS', sans-serif;
-    padding: 30px;
     background: #fff;
     position: absolute;
-    text-align: center;
+    margin: 300px 42% 0px;
+    padding: 10px;
+    border: none;
+    height: 180px;
+    width: 350px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
+    padding: 0px 0px 0px 0px;
     font-family: Raleway,'Trebuchet MS', sans-serif;
     color: #5ce1b8;
     text-align: center;
@@ -57,10 +64,11 @@ h2 {
 
 /*Background Image*/
 .jumbotron {
-    background-image: url('/image/IMG_6943.jpg'); /* The image used */
+    background-image: url('/image/home169.jpg'); /* The image used */
     opacity: 0.7;
     filter: alpha(opacity=70);
     height: 100%; /* Full height */
+    display: block;
     background-position: center; /* Center and scale the image nicely */
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,18 +98,15 @@ h2 {
 
 
 /*Body Sections*/
-#hcontainer {
-    border: none;
-    position: absolute;
-    /*display: block;*/
-    /*width: fit-content ;*/
+/*#hcontainer {
+    border: 2px solid;
+    position: relative;
+    display: block;
+    width: fit-content ;
     text-align: center;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px;
-
-}
-
-
+    padding: 300px 0px 0px 0px;
+    margin: auto;
+}*/
 
 .content {
     width: 400px;
@@ -109,17 +114,15 @@ h2 {
     margin-right: auto;
 }
 
-.ocontainer {
+.acontainer {
     display: block;
     float: left;
     width: 100%;
-    height: 400px;
+    height: 200px;
     background-color: #fff;
-    -moz-box-shadow: 0 0 30px 5px rgba(153, 153, 153, 0.65);
-    -webkit-box-shadow: 0 0 30px 5px rgba(153, 153, 153, 0.65);
 }
 
-.ccontainer {
+.bcontainer {
     display: block;
     float: left;
     width: 100%;
@@ -127,7 +130,7 @@ h2 {
     background-color: #f3eee7;
 }
 
-.wcontainer {
+.ccontainer {
     display: block;
     float: left;
     width: 100%;
@@ -135,7 +138,7 @@ h2 {
     background-color: #fff;
 }
 
-.gcontainer {
+.dcontainer {
     display: block;
     float: left;
     width: 100%;
