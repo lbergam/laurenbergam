@@ -38,6 +38,14 @@ p {
     line-height: 20px;
 }
 
+.pul {
+    font-family: Quicksand, 'Trebuchet MS', sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
 /*Links*/
 a:link {
     color: #808080;
@@ -77,6 +85,12 @@ h2 {
     color: #5ce1b8;
     text-align: center;
     border-bottom: solid #ebebeb 1px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Raleway,'Trebuchet MS', sans-serif;
+    border-bottom: solid black 1px;
 }
 
 /*Background Image*/
@@ -129,11 +143,12 @@ h2 {
 }
 
 .content {
-    width: 600px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/*About Me*/
 .twocolumn {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -160,12 +175,12 @@ h2 {
     background-color: #fff;
 }
 
-
+/*Resume*/
 .bcontainer {
     display: block;
     float: left;
     width: 100%;
-    height: 400px;
+    height: 1100px;
     background-color: #f3eee7;
 }
 
@@ -173,13 +188,14 @@ h2 {
 .firstcontent {
     display: inline-block;
     float: left;
-    width: 20%;
+    width: 15%;
+    padding: 0px 50px 0px 0px;
 }
 
 .secondcontent {
     display: inline-block;
     float: left;
-    width: 80%;
+    width: 75%;
 }
 
 .resumelinks {
@@ -187,14 +203,65 @@ h2 {
     line-height: 0;
 }
 
+ul.resume {
+    list-style-type: circle;
+}
+
+/*Projects*/
 .ccontainer {
     display: block;
     float: left;
     width: 100%;
-    height: 400px;
+    height: 800px;
     background-color: #fff;
+
 }
 
+
+.imagecontainer {
+    position: relative;
+    width: 300px;
+}
+
+
+.image {
+    opacity: 1;
+    display: block;
+    height: 100%;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+
+}
+
+.centerlink {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+}
+
+.imagecontainer:hover .image {
+    opacity: 0.3;
+}
+
+.imagecontainer:hover .centerlink {
+    opacity: 1;
+}
+
+.centerlinktext {
+    background-color: #5ce1b8;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+
+
+/*Contact*/
 .dcontainer {
     display: block;
     float: left;
