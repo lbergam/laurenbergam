@@ -114,6 +114,7 @@ h3 {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     text-align: center;
+
 }
 
 /*Menu Bar Links*/ 
@@ -217,10 +218,19 @@ ul.resume {
 
 }
 
+.imagegrid {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 .imagecontainer {
     position: relative;
     width: 300px;
+    float: left;
+    padding: 10px 10px;
+
 }
 
 
@@ -230,7 +240,7 @@ ul.resume {
     height: 100%;
     transition: 0.5s ease;
     backface-visibility: hidden;
-
+  
 }
 
 .centerlink {
@@ -241,7 +251,7 @@ ul.resume {
     left: 50%; 
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    
+
 }
 
 .imagecontainer:hover .image {
@@ -257,6 +267,7 @@ ul.resume {
     color: white;
     font-size: 16px;
     padding: 8px 16px;
+    text-align: center;
 }
 
 
