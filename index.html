@@ -8,13 +8,20 @@
       <meta charset="utf-8" />
       <title>Lauren Bergam</title>
       <link rel="icon" href="/image/favicon.ico" type="image/gif" sizes="16x16">
-      <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+      <link rel="stylesheet" type="text/css" href="StyleSheet.css"> <!--Point to css page-->
+      <link rel="stylesheet" type="text/css" href="StyleSheet2.css"> <!--Point to secong css page-->
+      <script src="javascript.js"></script> <!--Point to javascript page-->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
 <!--Body-->
   <body>
+
+<!--Point to javascript page-->
+
+<script src="javascript.js"></script>
+
 
 <!--Menu Bar-->
     <div class="navbar">
@@ -120,6 +127,9 @@
          </div>
      </div>
 
+
+
+
     <!--Projects-->
      <div class="ccontainer">
          <div class="content">
@@ -132,12 +142,72 @@
          <!--Image Grid-->          
          <div class="imagegrid">
              <div class="imagecontainer">
-             <img src="/image/IMG_6943.JPG" alt="Picture" class="image" width="100%">
+             <img src="/image/IMG_6943.JPG" alt="Picture" class="image cursor" width="100%" onclick="openModal();currentSlide(1)" >
                      
                  <div class="centerlink">
                      <div class="centerlinktext">Starbucks HQ</div>
                  </div>
              </div>
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="/image/IMG_6943.JPG" alt="Picture of things1" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="/image/home1024.JPG" alt="Picture of things2" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="/image/home169.JPG" alt="Picture of things3" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="/image/home44.JPG" alt="Picture of things4" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="/image/IMG_6943.JPG" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/image/home1024.JPG" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/image/home169.JPG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/image/home44.JPG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+<!--End Test-->
+
+
+
+
+
+
+
+
+
+
              <div class="imagecontainer">
              <img src="/image/IMG_6943.JPG" alt="Picture" class="image" width="100%">
                  <div class="centerlink">
@@ -171,6 +241,66 @@
                      <div class="centerlinktext">Wallingford Banquette</div>
                  </div>
              </div>
+
+<!--Test-->
+
+<div class="row">
+  <div class="column">
+    <img src="/image/IMG_6943.JPG" alt="Picture of things" style="width:100%" onclick="openModal();currentSlide(1)" class="cursor">
+  </div>
+</div>
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="/image/IMG_6943.JPG" alt="Picture of things1" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="/image/home1024.JPG" alt="Picture of things2" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="/image/home169.JPG" alt="Picture of things3" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="/image/home44.JPG" alt="Picture of things4" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="/image/IMG_6943.JPG" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/image/home1024.JPG" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/image/home169.JPG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/image/home44.JPG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+<!--End Test-->
+
+
          </div>
      </div>
 
@@ -181,6 +311,7 @@
          <p>These are some ways to contact me. Twitter, Facebook, you name it.
          Instagram, LinkedIn which is most important and I should put that first.
          Got everything. I can go meta and put laurenbergam.com</p>
+
          </div>
      </div>
 
