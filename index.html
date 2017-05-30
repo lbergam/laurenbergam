@@ -142,68 +142,52 @@
          <!--Image Grid-->          
          <div class="imagegrid">
              <div class="imagecontainer">
-             <img src="/image/IMG_6943.JPG" alt="Picture" class="image cursor" width="100%" onclick="openModal();currentSlide(1)" >
-                     
+                 <img src="/image/sbhqgallery.JPG" alt="Picture" class="image" width="100%">         
                  <div class="centerlink">
-                     <div class="centerlinktext">Starbucks HQ</div>
+                     <div class="centerlinktext cursor" onclick="openModal();currentSlide(1)">Starbucks HQ</div>
                  </div>
              </div>
 
+             <!--Start Slideshow for Image 1-->
+             <div id="myModal" class="modal">
+               <span class="close cursor" onclick="closeModal()">&times;</span>
+               <div class="modal-content">
 
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
+                 <div class="mySlides">
+                   <div class="numbertext">1 / 3</div>
+                   <img src="/image/sbhqgallery.JPG" alt="Picture of things1" style="width:100%">
+                 </div>
 
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="/image/IMG_6943.JPG" alt="Picture of things1" style="width:100%">
-    </div>
+                 <div class="mySlides">
+                   <div class="numbertext">2 / 3</div>
+                   <img src="/image/sbhqcdset.jpg" alt="Picture of things2" style="width:100%">
+                 </div>
 
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="/image/home1024.JPG" alt="Picture of things2" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="/image/home169.JPG" alt="Picture of things3" style="width:100%">
-    </div>
+                 <div class="mySlides">
+                   <div class="numbertext">3 / 3</div>
+                   <img src="/image/sbhqshops.JPG" alt="Picture of things3" style="width:100%">
+                 </div>
     
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="/image/home44.JPG" alt="Picture of things4" style="width:100%">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
+                 <div class="caption-container">
+                   <p id="caption"></p>
+                 </div>
 
-
-    <div class="column">
-      <img class="demo cursor" src="/image/IMG_6943.JPG" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/image/home1024.JPG" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/image/home169.JPG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/image/home44.JPG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-  </div>
-</div>
-
-<!--End Test-->
-
-
-
-
-
-
+                 <!--Thumbnails in Slideshow-->
+                 <div class="column">
+                   <img class="demo cursor" src="/image/sbhqgallery.JPG" style="width:100%" onclick="currentSlide(1)" alt="Starbucks Headquarters Casework Location: 8th Floor">
+                 </div>
+                 <div class="column">
+                   <img class="demo cursor" src="/image/sbhqcdset.jpg" style="width:100%" onclick="currentSlide(2)" alt="Customer Architecturals">
+                 </div>
+                 <div class="column">
+                   <img class="demo cursor" src="/image/sbhqshops.JPG" style="width:100%" onclick="currentSlide(3)" alt="Finalized Shop Drawings">
+                 </div>
+               </div>
+             </div>
+             <!--End Slideshow for Image 1-->
 
 
 
@@ -242,63 +226,6 @@
                  </div>
              </div>
 
-<!--Test-->
-
-<div class="row">
-  <div class="column">
-    <img src="/image/IMG_6943.JPG" alt="Picture of things" style="width:100%" onclick="openModal();currentSlide(1)" class="cursor">
-  </div>
-</div>
-
-
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="/image/IMG_6943.JPG" alt="Picture of things1" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="/image/home1024.JPG" alt="Picture of things2" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="/image/home169.JPG" alt="Picture of things3" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="/image/home44.JPG" alt="Picture of things4" style="width:100%">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-
-    <div class="column">
-      <img class="demo cursor" src="/image/IMG_6943.JPG" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/image/home1024.JPG" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/image/home169.JPG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/image/home44.JPG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-  </div>
-</div>
-
-<!--End Test-->
 
 
          </div>
